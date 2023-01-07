@@ -51,6 +51,7 @@ button.jump{
   margin-bottom: 10px;
   border: none;
   color: white;
+  border-radius: 3px;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -62,6 +63,36 @@ button.jump:hover{
   background-color: #d69292;
 }
 
+button.jump:active{
+  transform: translateY(2px);
+  animation-delay: 1ms;
+  }
+
+button.restartPage {
+  background-color: #29495a;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+div.restart{
+  display: flex;
+  justify-content: center ;
+}
+
+button.restartPage:hover{
+  background-color: #48748c;
+}
+
+button.restartPage:active{
+transform: translateY(2px);
+animation-delay: 1ms;
+}
 
 
 .kbd-navigation .square:focus {

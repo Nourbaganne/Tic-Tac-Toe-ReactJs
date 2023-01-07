@@ -38,6 +38,9 @@ function Square(props) {
             {this.renderSquare(7)}
             {this.renderSquare(8)}
           </div>
+          <div className='restart'>
+            <button className='restartPage' onClick={() => {window.location.reload()}}>Play Again</button>
+          </div>
         </div>
       );
     }
@@ -95,8 +98,12 @@ function Square(props) {
       });
       let status;
       if (winner) {
+        console.log(winner);
         status = 'Winner: ' + winner;
+      } else if( moves.length === 10 && !winner) {
+        status = "It's a Draw"
       } else {
+        console.log(moves);
         status = 'Next Player: ' + (this.state.xIsNext ? 'X' : 'O');  
       }
       return (
