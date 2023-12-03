@@ -1,3 +1,6 @@
+This project serves as a foundational exploration of ReactJS concepts. Delve into the core principles and gain a solid understanding of ReactJS through this hands-on implementation.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
